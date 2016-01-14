@@ -18,6 +18,7 @@ class radio : public IConnector
 
     void Receive () ;
     void Send (bool) ;
+    void Send(std::vector<uint8_t> &){};
 
   public:
     int rx_pin;
